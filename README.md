@@ -15,15 +15,15 @@ Ensure that the necessary folders (source_directory and backup_directory) exist 
 Installation
 
 Clone the repository to your local machine:
-git clone https://github.com/jjordann01/backup-files.git
+[git clone https://github.com/usernameetc]
 
 Change into the project directory:
-cd backup-files
+[cd backup-files]
 
 Usage
 Update the source_directory and backup_directory in the backup_files.py file to point to the directories you want to back up and where you want the backup to be saved.
 
 Run the backup script:
-python3 backup_files.py
+[python3 backup_files.py]
 
 The script will attempt to back up the files from the source to the backup directory. It will notify you if the backup was successful or if the files already exist in the backup directory.
